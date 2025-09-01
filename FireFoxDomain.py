@@ -463,9 +463,9 @@ if __name__ == "__main__":
             email_content += "祝您挖洞愉快，必出高危哦~~~\nGoogleFirefoxDomain 邮件助手"
 
             # 发送邮件通知
-            sender_email = "1794686508@qq.com"  # 你的QQ邮箱地址
-            sender_password = "busnjcluyxtlejgc"  # 你的QQ邮箱SMTP授权码
-            receiver_email = "shenghui3301@163.com"  # 收件人邮箱地址
+            sender_email = "xxxx@qq.com"  # 你的QQ邮箱地址
+            sender_password = "xxx"  # 你的QQ邮箱SMTP授权码
+            receiver_email = "xxx@163.com"  # 收件人邮箱地址
 
             send_email(sender_email, sender_password, receiver_email, email_subject, email_content)
         else:
@@ -478,4 +478,5 @@ if __name__ == "__main__":
                 driver.quit()
                 print(Fore.YELLOW + "[+] 主程序中 Firefox 浏览器已关闭")
             except Exception as e:
+
                 print(Fore.RED + f"[-] 关闭浏览器时出错: {str(e)}")
