@@ -451,9 +451,9 @@ def main():
         print(Fore.GREEN + f"{'=' * 60}")
 
         # 发送邮件
-        sender_email = "1794686508@qq.com"  # 你的QQ邮箱地址
-        sender_password = "busnjcluyxtlejgc"  # 你的QQ邮箱SMTP授权码
-        receiver_email = "shenghui3301@163.com"  # 收件人邮箱地址
+        sender_email = "xxx@qq.com"  # 你的QQ邮箱地址
+        sender_password = "xxx"  # 你的QQ邮箱SMTP授权码
+        receiver_email = "xxxx@163.com"  # 收件人邮箱地址
         subject = "📧 Chrome的Domain信息收集工作已完成！"  # 邮件主题
         content = f"""
         您好！尊敬的辉小鱼先生！
@@ -469,4 +469,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
