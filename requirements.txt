@@ -1,0 +1,25 @@
+# GoogleFirefoxDomain 依赖包清单
+# 使用命令安装: python3 -m pip install -r requirements.txt
+
+# 浏览器自动化核心库
+selenium>=4.10.0
+
+# 域名解析和处理库
+tldextract>=3.4.0
+
+# 控制台彩色输出支持
+colorama>=0.4.6
+
+# 邮件发送支持
+smtplib>=0.1.1  # 通常Python标准库已包含
+email>=4.0.3    # 通常Python标准库已包含
+
+# 代理支持增强
+python-socks>=2.3.0
+
+# 网页内容解析
+beautifulsoup4>=4.12.2
+
+# 确保兼容性的额外依赖
+urllib3>=1.26.16
+certifi>=2023.7.22
