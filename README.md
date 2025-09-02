@@ -177,7 +177,7 @@ receiver_email = "recipient@example.com"
 ## 📞 联系作者
 
 - 作者：一只鱼（Bifishone）
-- Email：bifishone@example.com
+- Email：bifishone@gmail.com
 
 ------
 
